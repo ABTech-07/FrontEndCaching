@@ -1,13 +1,23 @@
-import logo from './logo.svg';
-import img1 from './1.jpg';
+
+import img2 from './2.jpg';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-       <img src={img1}/>
-      <p> ForntEnd Caching</p> 
+       <img src={img2}/>
+      <h2> ForntEnd Caching After Changes</h2> 
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, 
+      nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl 
+      nisl eget nisl. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, 
+      eget ultricies nisl nisl eget nisl. Nullam auctor, nisl eget ultricies tincidunt, nisl 
+      nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor, nisl eget ultricies 
+      tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor, nisl
+       eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. 
+       Nullam auctor, nisl eget ultricies tincidunt.
+      </p>
     </div>
   );
 }
